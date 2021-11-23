@@ -27,7 +27,7 @@ public class L859_BuddyStrings {
                     else return false;
                 }
             }
-            return  (second != -1 && s.charAt(first) == goal.charAt(second) && s.charAt(second) == goal.charAt(second));
+            return  (second != -1 && s.charAt(first) == goal.charAt(second) && s.charAt(second) == goal.charAt(first));
         }
     }
 }
